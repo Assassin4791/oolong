@@ -40,3 +40,4 @@ case object MongoQueryNode {
 
   case class Regex(pattern: Expr[Pattern]) extends MQ
 }
+
